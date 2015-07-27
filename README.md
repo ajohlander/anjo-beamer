@@ -20,8 +20,10 @@ In the template an easier way is used. Here, just change the command \anjopath t
 Themes
 ----------
 Themes:
-Huskvarna
+
+* Huskvarna
 
 Color themes:
-otter
+
+* otter
 
