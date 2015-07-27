@@ -1,0 +1,69 @@
+% Huskvarna theme
+% Andreas Johlander
+
+
+%-----Title Page-----------------
+
+\setbeamertemplate{title page}
+{
+\centering
+
+% Title first
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\inserttitle\par%
+\end{beamercolorbox}%
+
+% Some space
+\vspace{0.2cm}
+
+% Title graphic
+{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+
+% Authors
+\begin{beamercolorbox}[sep=8pt,center]{author}
+\usebeamerfont{author}\insertauthor
+\end{beamercolorbox}
+
+% Institutes
+\begin{beamercolorbox}[sep=8pt,center]{institute}
+\usebeamerfont{institute}\insertinstitute
+\end{beamercolorbox}
+
+% Date
+\begin{beamercolorbox}[sep=8pt,center]{date}
+\usebeamerfont{date}\insertdate
+\end{beamercolorbox}
+\vfill
+}
+
+%--------------------------------
+
+%-----Theme-------------
+% Mode
+\mode<presentation>
+
+% Font
+\usefonttheme{structuresmallcapsserif}
+
+% Set themes
+\useoutertheme[width=0pt]{sidebar}
+\useinnertheme{circles}
+
+% For formulae
+\setbeamerfont{block title}{size={}}
+\usefonttheme[onlymath]{serif}
+
+\setbeamertemplate{footline}[page number]{}
+
+% Gets rid of navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Set caption to no figure number and italics caption
+\setbeamertemplate{caption}{\emph{\insertcaption}} 
+
+% Bibliography
+\setbeamertemplate{bibliography item}{}
+
+
+\mode
+<all>
