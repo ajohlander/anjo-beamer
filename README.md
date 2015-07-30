@@ -13,15 +13,17 @@ Clone this directory by
 Usage
 ----------
 Use the themes and color themes with e.g:
-> \usepackage{/.../anjo-beamer/anjo/beamerthemeHuskvarna}
+> \usepackage{/.../anjo-beamer/themes/beamerthemeHuskvarna}
 
 In the template an easier way is used. Here, just change the command \anjopath to the path where the anjo-beamer is located. Then change \anjotheme and \anjocolor.
 
 Themes
 ----------
 Themes:
-Huskvarna
+
+* Huskvarna
 
 Color themes:
-otter
+
+* otter
 
