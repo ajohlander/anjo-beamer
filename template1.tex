@@ -3,6 +3,7 @@
 \usepackage{textpos}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{tikz}
 
 % Commands
 %For bold vectors
@@ -108,6 +109,17 @@ Institute of Dinosaurs in Space, University B
 \caption{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ex malesuada, dapibus nunc at, condimentum sapien. }
 \end{figure}
 
+\end{frame}
+
+% --------Fifth Frame----------------
+\begin{frame}
+% Picture covers entire frame
+% If picture is not wide, try [width=\paperwidth]
+\begin{tikzpicture}[remember picture,overlay]
+\node[at=(current page.center)] {
+\includegraphics[height=\paperheight]{butterfly.eps}
+};
+\end{tikzpicture}
 \end{frame}
 
 % --------Reference Frame----------------
